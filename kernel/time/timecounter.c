@@ -16,7 +16,7 @@
  */
 
 #include <linux/export.h>
-#include <linux/timecounter.h>
+#include <linux/clocksource.h>
 
 void timecounter_init(struct timecounter *tc,
 		      const struct cyclecounter *cc,
